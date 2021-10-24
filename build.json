@@ -1,0 +1,10 @@
+{
+  "solutionFile": "./E5R.OAuth2.IdentityServer.sln",
+  "publishGlobalExcludes": [
+    "*.pdb",
+    "appsettings.*.json",
+    "config.*.json"
+  ],
+  "publishArtifacts": [],
+  "testArtifacts": []
+}
