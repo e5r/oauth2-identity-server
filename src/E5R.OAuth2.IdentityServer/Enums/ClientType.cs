@@ -10,7 +10,10 @@ namespace E5R.OAuth2.IdentityServer.Enums
 {
     public enum ClientType
     {
-        [MetaTag(CustomIdKey, "confidential")] Confidential,
-        [MetaTag(CustomIdKey, "public")] Public
+        [MetaTag(CustomIdKey, "confidential")]
+        Confidential,
+
+        [MetaTag(CustomIdKey, "public")]
+        Public
     }
 }

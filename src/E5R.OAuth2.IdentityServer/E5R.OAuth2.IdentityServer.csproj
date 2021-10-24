@@ -10,4 +10,19 @@
     <PackageReference Include="E5R.Architecture.Business" Version="0.10.0-beta-327" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\OAuthErrors.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OAuthErrors.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\OAuthErrors.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OAuthErrors.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>
