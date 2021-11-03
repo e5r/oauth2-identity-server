@@ -16,7 +16,7 @@ namespace E5R.OAuth2.IdentityServer.Entities
         public string Id { get; set; }
         public string Secret { get; set; }
         public string Description { get; set; }
-        public Uri OwnerUrl { get; set; }
+        public Uri AboutUrl { get; set; }
         public ClientType Type { get; set; }
         public Uri[] RedirectUris { get; set; }
     }
